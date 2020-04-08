@@ -4,4 +4,4 @@ Responsive Web Design Projects - Build a Survey Form
 
 ======================================================.
 
-[link to Project: https://deelip7.github.io/TributePage/]
+[link to Project: https://deelip7.github.io/SurveyForm/]
