@@ -10,7 +10,9 @@
     <div class="container">
       <header id="header">
         <h1 id="title">Welcome to CodeFree Form</h1>
-        <p id="description">Please Fill Out the Form</p>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
       </header>
 
       <form action="" id="survey-form">
@@ -48,48 +50,59 @@
         <!---------------------------------- Radio Buttons ---------------------------------->
         <div class="input-feilds">
           <p>Would you recommend freeCodeCamp to a friend?</p>
-          <label for="definitely">
-            <input type="radio" value="definitely" name="recommend" />
+          <label for="definitely" class="radio_checkbox">
+            <input
+              type="radio"
+              value="definitely"
+              name="recommend"
+              id="definitely"
+            />
             Definitely</label
           >
 
-          <label for="maybe">
-            <input type="radio" value="maybe" name="recommend" /> Maybe</label
+          <label for="maybe" class="radio_checkbox">
+            <input type="radio" value="maybe" name="recommend" id="maybe" />
+            Maybe</label
           >
 
-          <label for="no">
-            <input type="radio" value="no" name="recommend" /> No</label
+          <label for="no" class="radio_checkbox">
+            <input type="radio" value="no" name="recommend" id="no" /> No</label
           >
         </div>
         <!---------------------------------- Checkboxes ---------------------------------->
         <div class="input-feilds">
           <p>What is your favorite feature of freeCodeCamp?</p>
-          <label for="1">
-            <input type="checkbox" value="1" /> Front-end Projects</label
+          <label for="1" class="radio_checkbox">
+            <input type="checkbox" value="1" id="1" /> Front-end Projects</label
           >
 
-          <label for="2">
-            <input type="checkbox" value="2" /> Back-end Projects</label
+          <label for="2" class="radio_checkbox">
+            <input type="checkbox" value="2" id="2" /> Back-end Projects</label
           >
 
-          <label for="3">
-            <input type="checkbox" value="3" /> Data Visualization</label
+          <label for="3" class="radio_checkbox">
+            <input type="checkbox" value="3" id="3" /> Data Visualization</label
           >
 
-          <label for="4">
-            <input type="checkbox" value="4" /> Open Source Community</label
+          <label for="4" class="radio_checkbox">
+            <input type="checkbox" value="4" id="4" /> Open Source
+            Community</label
           >
 
-          <label for="5">
-            <input type="checkbox" value="5" /> Additional Courses</label
+          <label for="5" class="radio_checkbox">
+            <input type="checkbox" value="5" id="5" /> Additional Courses</label
           >
         </div>
         <!---------------------------------- Text Area ---------------------------------->
         <div class="input-feilds">
-          <label for="textarea">Any Comments or suggestions?</label>
-          <textarea name="" id="textarea" cols="30" rows="10">
-Enter your comment here</textarea
-          >
+          <p for="textarea">Any Comments or suggestions?</p>
+          <textarea
+            name=""
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="Enter your comment here..."
+          ></textarea>
           <!---------------------------------- Submit Buttons ---------------------------------->
           <button type="submit" id="submit">Submit</button>
         </div>
